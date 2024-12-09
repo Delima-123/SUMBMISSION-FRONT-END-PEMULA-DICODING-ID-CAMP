@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  .head_bar {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .head_bar__title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Main Section */
+  main {
+    margin-top: 20px;
+  }
+  
+  /* Input Section */
+  .input_section, .search_section, .book_shelf {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input_section h2, .search_section h2, .book_shelf h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #6200ea;
+  }
+  
+  .input, .input_inline {
+    margin-bottom: 15px;
+  }
+  
+  .input label, .input_inline label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input input[type="text"],
+  .input input[type="number"],
+  .input_inline input[type="checkbox"],
+  .search_section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input_inline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input_inline label {
+    margin-right: 10px;
+  }
+  
+  #bookFormSubmit, #searchSubmit, .bookItem button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #bookFormSubmit:hover, #searchSubmit:hover, .bookItem button:hover {
+    background-color: #3700b3;
+  }
+  
+  /* Book List */
+  .book_shelf div {
+    margin-bottom: 15px;
+  }
+  
+  .book_shelf h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .book_shelf p {
+    margin-bottom: 5px;
+  }
+  
+  .book_shelf button {
+    margin-right: 5px;
+  }
+  
